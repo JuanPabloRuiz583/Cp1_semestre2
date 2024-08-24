@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.enredo{
+    background-color: #0E1015;
+    height: 127px;
+    padding: 50px;
+    color: white;
+}
+
+.div_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.div_pricipal_p{
+    color: white;
+    font-size: larger;
+    align-items: center;
+}
+
+section{
+    height: 1000px;
+    background-color: #0E1015;
+    
+}
+
+.div_pricipal2{
+    display: flex;
+    margin-top: 90px;
+    padding: 50px;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.avaliar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.avaliauser{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quadrado{
+    height: 450px;
+    width: 1150px;
+    margin-left: 50px;
+    background-color: #1C171D;
+    margin-bottom: 20px;
+    
+}
+
+.quadrado2{
+    height: 350px;
+    width: 1150px;
+    margin-left: 50px;
+    background-color: #1C171D;
+
+    
+}
+
+.vermelho{
+    background-color: #D5224E;
+    height: 32px;
+    width: 341px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.blogg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div_div_p{
+    margin-left: 0;
+}
+
+.texto{
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+.likes_dislikes{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.likes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.spoiler{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 50px;
+}
+
+.spoiler1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    height: 39px;
+    background-color: #0E1015;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.cor{
+    color: #FF003F;
+}
+
+.cor_clara{
+    color: #D5224E;
+}
+
+.fonte2{
+    font-family: "Krona One", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.fonte3{
+    font-family: "Krona One", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+

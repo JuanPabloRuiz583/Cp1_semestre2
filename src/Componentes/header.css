@@ -1,0 +1,64 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    background-color: #0E1015;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+   justify-content: space-around;
+   padding: 10px;
+   height: 128px;
+}
+
+.menu{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.menu p{
+    padding: 40px;
+    align-items: center;
+}
+
+.lupa{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    height: 50px;
+    width: 600px;
+    border-radius: 8px;
+    background-color: #1B1D23;
+    align-items: center;
+}
+
+.lupa_div{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.login{
+    width: 140px;
+    height: 50px;
+    background-color: #D5224E;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url("../src/assets/tela.png");
+
+}
+
+.fonte{
+    font-family: "Krona One", sans-serif;
+    size: 32px;
+}
+
+.fonte1{
+    size: 16px;
+    font-family: "Krona One", sans-serif;
+}
+article{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.alinhar{
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+figure{
+    margin-top: 20px ;
+    margin-left: 80px;
+    padding: 80px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
