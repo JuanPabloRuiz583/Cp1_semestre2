@@ -4,6 +4,7 @@ import Footer from './Componentes/Footerr/Footer';
 import Header from './Componentes/Header';
 import Principal from './Componentes/Principal/principal';
 import Cleitao from './assets/tela.png';
+import cleitao2 from './assets/image4.png';
 
 function App() {
 
@@ -33,7 +34,7 @@ function App() {
 
       <figure>
         <img height="400px" width="400px" src={Cleitao} alt="" />
-        <img height="400px" width="600px" src="../src/assets/image4.png" alt="" />
+        <img height="400px" width="600px" src={cleitao2} alt="" />
       </figure>
       <Principal />
       <Footer />
